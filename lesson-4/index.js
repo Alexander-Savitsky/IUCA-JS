@@ -64,3 +64,26 @@ console.log(square2(25, 40));
 var age = 18;
 var ageStatus = (age >= 18) ? "YES" : "NO";
 console.log(ageStatus);
+
+// Задача на перевотор строки (самостоятельно)
+// С помощью цикла for
+var userStrf = prompt("Введите строку: ");
+var reversedStrf = "";
+
+for (var i = userStrf.length - 1; i >= 0; i--) {
+    reversedStrf += userStrf[i];
+}
+
+console.log(reversedStrf);
+
+// С помощью цикла while
+var userStrw = prompt("Введите строку: ")
+var reversedStrw = "";
+var i = userStrw.length - 1;
+
+while (i >= 0) { // 
+    reversedStrw += userStrw[i]; 
+    i--; 
+}
+
+console.log(reversedStrw); 
